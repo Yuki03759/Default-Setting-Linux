@@ -28,3 +28,26 @@ $ sudo rm /var/lib/dpkg/lock
 ```
 $ sed -i -e 's/\r$//' scriptname.sh
 ```
+
+## git
+### pull a single file
+```
+$ git fetch 
+$ git checkout remotes/origin/develop -- utils.py
+```
+
+### push a local branch
+```
+$ git push origin develop
+```
+
+### remove a local branch
+```
+$ git branch -d develop
+```
+
+### git useful commands
+```
+$ git diff
+$ git status
+```
