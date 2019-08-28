@@ -37,31 +37,21 @@ $ df -h
 $ du -sh Downloads
 ```
 
-# git
-### pull a single file
+### 単位変換して表示
 ```
-$ git fetch 
-$ git checkout remotes/origin/develop -- utils.py
-```
-### create a new local branch 
-```
-$ git checkout -b develop origin/develop
-```
-### push a local branch
-```
-$ git push origin develop
+$ ls -lh
 ```
 
-### remove a local branch
+### show an image in Linux
 ```
-$ git branch -d develop
+$ eog <画像ファイル名>
 ```
 
-### git useful commands
+### find file in linux
 ```
-$ git diff
-$ git status
+$ find /usr/local -name "*opencv*" -o "*cv2*"
 ```
+
 
 # vim
 ### search file path in vim
