@@ -51,10 +51,10 @@ $ git add & commit & push
 ### コミット変更
 ```
 # commitのみを消す
-$ git reset --soft
+$ git reset --soft HEAD^
 # commit & add　& ソースの変更を取り消す
-$ git reset --hard
+$ git reset --hard HEAD^
 # commit & addのみを取り消す
-$ git reset --mixed
+$ git reset --mixed HEAD^
 ```
 
