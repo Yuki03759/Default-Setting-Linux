@@ -58,3 +58,13 @@ $ find /usr/local -name "*opencv*" -o "*cv2*"
 ```
 :echo expand('%:p')
 ```
+
+### replace
+```
+:%s/search/replace/g
+```
+
+### sshを使ってファイルコピー
+```
+scp test.txt nvidia@192.168.1.14:/home/nvidia/
+```

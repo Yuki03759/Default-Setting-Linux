@@ -4,6 +4,13 @@
 $ git fetch 
 $ git checkout remotes/origin/develop -- utils.py
 ```
+
+### pull their file
+```
+git checkout --theirs main.py
+```
+
+
 ### create a new local branch 
 ```
 $ git checkout -b develop origin/develop
@@ -45,6 +52,7 @@ $ git status
 $ git stash list
 $ git stash apply stash@{0}
 $ git add & commit & push
+$ git stash clear
 
 ```
 
@@ -57,4 +65,5 @@ $ git reset --hard HEAD^
 # commit & addのみを取り消す
 $ git reset --mixed HEAD^
 ```
+
 
